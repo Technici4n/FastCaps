@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.technici4n.fastcaps.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CapabilityProviderAccessor",
+    "CapabilityProviderMixin",
+    "ItemStackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
